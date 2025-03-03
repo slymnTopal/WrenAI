@@ -9,7 +9,7 @@ networks:
 
 services:
   bootstrap:
-    build: ./bootstrap
+    image: ghcr.io/canner/wren-bootstrap:${WREN_BOOTSTRAP_VERSION}
     restart: on-failure
     platform: ${PLATFORM}
     environment:
