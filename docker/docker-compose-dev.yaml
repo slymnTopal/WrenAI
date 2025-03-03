@@ -34,7 +34,7 @@ services:
       - bootstrap
 
   ibis-server:
-    build: ./ibis-server
+    build: ghcr.io/canner/wren-engine-ibis:${IBIS_SERVER_VERSION}
     restart: on-failure
     platform: ${PLATFORM}
     expose:
