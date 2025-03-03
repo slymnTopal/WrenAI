@@ -10,6 +10,6 @@ export const getSettingMenu = (menu: SETTINGS) =>
     },
     [SETTINGS.PROJECT]: {
       icon: ProjectOutlined,
-      label: 'Project Settings',
+      label: 'Project Settings Done',
     },
   })[menu] || null;
