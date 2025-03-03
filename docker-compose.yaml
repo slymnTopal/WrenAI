@@ -53,8 +53,6 @@ services:
     ports:
       - ${AI_SERVICE_FORWARD_PORT}:${WREN_AI_SERVICE_PORT}
     environment:
-														
-											  
       PYTHONUNBUFFERED: 1
       CONFIG_PATH: /app/data/config.yaml
     env_file:
